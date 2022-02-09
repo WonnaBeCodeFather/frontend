@@ -1,0 +1,17 @@
+.detailimage {
+    height: 600px;
+    margin-left: 25px;
+    
+}
+
+.ProductItems {
+    margin-left: 25px;
+    
+}
+
+.Reviews {
+    margin-left: 50px;
+    border: solid 2px darkblue;
+    padding: 10px;
+}
+

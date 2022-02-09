@@ -1,0 +1,7 @@
+
+.main{
+    text-align: center;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}

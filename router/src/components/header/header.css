@@ -1,0 +1,49 @@
+.dixi_font {
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(13, 61, 219);
+    font-size: 220px;
+    position: relative;
+
+    top: -80px;
+    width: 100%;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+   
+
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+
+    
+
+}
+.login-block {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.login {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .1s ease-in;
+    width: 100px;
+}
+
+.header:hover .login {
+    background: #000cad;
+ }
