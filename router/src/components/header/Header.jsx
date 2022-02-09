@@ -17,8 +17,8 @@ export const Header = () => {
     setUsername('')
   }
 
-const a = localStorage.getItem('token')
-const token = a.slice(8, a.length - 2)
+const token = localStorage.getItem('token')
+
 
 
 useEffect(() => {

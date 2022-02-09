@@ -27,7 +27,7 @@ export const Login = () => {
             "password": pass
         })
         .then((response) => 
-        {localStorage.setItem('token', JSON.stringify(response.data)); goHome()})
+        {localStorage.setItem('token', response.data.key); goHome()})
         .catch(e => console.log(e.response.data))  
         .catch((error) => console.log(error))
     }
